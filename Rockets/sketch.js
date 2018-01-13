@@ -58,7 +58,7 @@ class Population
         this.size = 50; 
         this.rockets = [] ;
         this.mating_pool = []; 
-        this.mutation = 0.01; 
+        this.mutation = 0.001; 
         this.average_fitness=0; 
         if (new_generation)
         {
